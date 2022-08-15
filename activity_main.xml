@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_light"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@mipmap/ic_launcher"/>
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#FFFF0000"/>
 
     <View
-        android:layout_width="58dp"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_orange_light"/>
-    <View
-        android:layout_width="50dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="right"
-        android:background="@android:color/holo_orange_light"/>
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFFFF"
+        />
 
 </FrameLayout>
